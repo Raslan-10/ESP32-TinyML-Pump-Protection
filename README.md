@@ -3,7 +3,7 @@
 Repositori ini berisi *source code* dan *dataset* kelistrikan untuk penelitian Tugas Akhir: **"Implementasi TinyML pada ESP32 untuk Deteksi Anomali Arus Listrik dan Proteksi Beban Induktif (Studi Kasus: Pompa Air Rumah Tangga)"**.
 
 ## Arsitektur Sistem
-Sistem proteksi cerdas ini dibangun menggunakan arsitektur *Dual-Core* dengan sistem operasi waktu nyata (*FreeRTOS*).
+Sistem proteksi cerdas ini dibangun menggunakan arsitektur *Dual-Core* dengan sistem operasi *real-time* (*FreeRTOS*).
 * **Core 0:** Menangani fungsi IoT (WiFiManager, Captive Portal, Blynk, dan Telegram Bot).
 * **Core 1:** Menangani fungsi deterministik (Sensor PZEM-004T, Inferensi TinyML secara luring, dan aktuasi Relai Ganda *Fail-safe*).
 
