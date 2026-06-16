@@ -8,7 +8,7 @@
  * - Core 0 : NetworkTask (WiFiManager, Blynk, Telegram Bot)
  * - Core 1 : Main Loop (PZEM Sensor, AI Inference, Relay Control, UI/LCD)
  * * @features   : 
- * - Edge Impulse TinyML (Normal, Dry Run, Pipe Blockage)
+ * - Edge Impulse TinyML (Normal, Dry Run, Pipa Mampet)
  * - Mutex-protected Shared Memory (Thread-Safe)
  * - 3-Tier Hardware Auto-Recovery (PZEM, I2C LCD, Hard Reset PB)
  * - Asynchronous Telegram Queue & Critical Alert Bypass
