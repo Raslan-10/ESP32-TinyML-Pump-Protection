@@ -9,7 +9,7 @@ Sistem proteksi cerdas ini dibangun menggunakan arsitektur *Dual-Core* dengan si
 
 ## Struktur Repositori
 * `AI_Pump_Protect_Firmware.ino`: Kode sumber utama mikrokontroler ESP32-S3.
-* `dataset`: Sampel data Tegangan (voltage), Arus (current), Daya (power), *Power Factor* (PF) dan Impedansi (Z) untuk kondisi beban Normal, Pipa Mampet (overload), dan *Dry Running*. dengan beberapa rentang tegangan
+* `dataset pompa air v2`: Sampel data Tegangan (voltage), Arus (current), Daya (power), *Power Factor* (PF) dan Impedansi (Z) untuk kondisi beban Normal, Pipa Mampet (overload), dan *Dry Running*. dengan beberapa rentang tegangan
 
 ## Spesifikasi Perangkat Keras
 * **Mikrokontroler:** ESP32-S3
